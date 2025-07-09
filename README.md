@@ -1,4 +1,4 @@
-# Recruitment Task – Flask REST API
+# Template for Flask REST API projects
 
 This is a recruitment REST API task built with Flask by Mariusz Łepkowski.  
 It supports both local setup via virtual environment and Docker, and includes an integrated PostgreSQL database setup.
