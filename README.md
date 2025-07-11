@@ -20,8 +20,8 @@ It supports both local setup via virtual environment and Docker, and includes an
 ## Setup 
 ```bash
 # Clone the repo
-git clone https://github.com/youruser/recruitment-api-template.git
-mv recruitment-api-template <your-project-name>
+git clone https://github.com/MariuszLepkowski/flask_api_template
+mv flask_api_template <your-project-name>
 cd <your-project-name>
 ```
 
