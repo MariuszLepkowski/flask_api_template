@@ -26,7 +26,7 @@ cd <your-project-name>
 ```
 
 Tip:
-Changing the folder name (e.g. to music-api-task, books-crud, etc.) will help clearly separate different recruitment tasks.
+Changing the folder name (e.g. to music-api-task, books-crud, etc.) will help clearly separate different types of tasks.
 It also affects the default names of Docker containers when using docker-compose.
 
 ## Run Locally (with venv)
