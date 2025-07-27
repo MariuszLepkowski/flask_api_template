@@ -77,7 +77,7 @@ To begin using the database with your own models (e.g., a MusicAlbum table):
 
 Define your SQLAlchemy models inside app/models.py, for example:
 ```py
-from app import db
+from app.extensions import db
 
 class MusicAlbum(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -95,7 +95,7 @@ docker-compose exec web flask shell
 
 Inside the shell:
 ```commandline
-from app import db
+from app.extensions import db
 db.create_all()
 ```
 
