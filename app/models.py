@@ -1,4 +1,4 @@
-from app import db
+from app.extensions import db
 
 # Example model for future REST API tasks
 class MusicAlbum(db.Model):
